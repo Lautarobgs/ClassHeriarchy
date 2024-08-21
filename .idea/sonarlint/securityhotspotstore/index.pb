@@ -21,3 +21,15 @@ G
 src/classes/IndieZ.java,9\7\97cf4197aae31bcc43d168b0edfc604136ebabc3
 H
 src/classes/Classic.java,c\f\cfc6108fb38483c35397b583ce4726cf211a4189
+O
+src/interfaces/IMusicGenre.java,3\4\3439497aa275bebd107c007059e7d06e80ebb934
+K
+src/interfaces/IIndieZ.java,2\1\2165a35498e33c578519f5897c8ab6aed640930a
+H
+src/classes/SingerZ.java,e\e\ee826999a2e6957da5529ddbb09d325a39959bab
+J
+src/interfaces/IMetal.java,4\c\4c6e1e274ae5621195198ae65f024faf7406a4fe
+H
+src/interfaces/IPop.java,1\c\1cc0356218bfe4f3a273cd8b65ca092a8ef34955
+I
+src/interfaces/IPunk.java,6\1\61b8fcb411bc638089be70ba41735bb91f70eabc

@@ -1,8 +1,11 @@
 package classes;
 
+import interfaces.IIndieZ;
+import interfaces.IMusicGenre;
+
 import java.util.Objects;
 
-public class IndieZ extends MusicGenre{
+public class IndieZ extends MusicGenre implements IIndieZ {
   private String countryOrigin;
 
 
@@ -16,6 +19,9 @@ public class IndieZ extends MusicGenre{
     super(name, origin);
   }
 
+  static {
+    System.out.println("Loading IndieZ class...");
+  }
   ///Overriding abstract method
   @Override
   public void play() {
@@ -47,4 +53,19 @@ public class IndieZ extends MusicGenre{
   public void setCountryOrigin(String countryOrigin) {
     this.countryOrigin = countryOrigin;
   }
+
+  @Override
+  public void pause() {
+    System.out.println("Music paused");
+  }
+
+  @Override
+  public void skipSong() {
+    System.out.println("Song skipped");
+  }
+
+  public final void previousSong(){
+    System.out.println("Now playing previous song");
+  }
+
 }

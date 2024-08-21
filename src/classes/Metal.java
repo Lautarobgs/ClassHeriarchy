@@ -1,10 +1,12 @@
 package classes;
 
+import interfaces.IMetal;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Metal extends MusicGenre{
+public class Metal extends MusicGenre implements IMetal {
   protected ArrayList<String> instruments;
 
   public Metal(String name, String origin, ArrayList<String> instruments) {
@@ -42,5 +44,10 @@ public class Metal extends MusicGenre{
     return "Metal{" +
       "instruments=" + instruments +
       '}';
+  }
+
+  @Override
+  public void deleteSong() {
+    System.out.println("Song succesfully deleted");
   }
 }

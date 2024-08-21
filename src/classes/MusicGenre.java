@@ -1,6 +1,8 @@
 package classes;
 
-public abstract class MusicGenre {
+import interfaces.IMusicGenre;
+
+public abstract class MusicGenre implements IMusicGenre {
   protected String name;
   protected String origin;
   protected Integer bpm;
@@ -25,6 +27,8 @@ public abstract class MusicGenre {
   public void setOrigin(String origin) {
     this.origin = origin;
   }
+
+  @Override
   public abstract void play();
 
   public Integer getBpm() {

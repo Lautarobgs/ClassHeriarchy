@@ -1,6 +1,8 @@
 package classes;
 
-public class Punk extends MusicGenre{
+import interfaces.IPunk;
+
+public class Punk extends MusicGenre implements IPunk {
   private String style;
 
   public Punk(String name, String origin, String style) {
@@ -19,5 +21,10 @@ public class Punk extends MusicGenre{
   @Override
   public void play() {
     System.out.println("Now listening to punk");
+  }
+
+  @Override
+  public void getBandInfo() {
+    System.out.println("lorem ipsum");
   }
 }

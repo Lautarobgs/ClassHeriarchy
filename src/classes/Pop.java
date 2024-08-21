@@ -1,12 +1,16 @@
 package classes;
 
+import interfaces.IMusicGenre;
+import interfaces.IPop;
+
 import java.util.Objects;
 
-public class Pop extends MusicGenre{
+public class Pop extends MusicGenre implements IPop {
   protected String mostStreamedArtist;
-
+  private Float speed;
   public Pop(String name, String origin, String mostStreamedArtist) {
     super(name, origin);
+    this.speed = 1F;
     this.mostStreamedArtist = mostStreamedArtist;
   }
 
@@ -46,5 +50,10 @@ public class Pop extends MusicGenre{
       ", origin='" + origin + '\'' +
       ", bpm=" + bpm +
       '}';
+  }
+
+  @Override
+  public void changeSpeed(Float newspeed) {
+    this.speed = (this.speed/newspeed);
   }
 }
