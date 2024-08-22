@@ -2,6 +2,7 @@ Main requirements at: IndieZ, MusicGenre, Metal, Pop
 
 
 Create a class hierarchy. Topic for your hierarchy will be provided by your mentors.
+
 3rd Requirement:
 Add 5 interfaces to the existing hierarchy.
 Use polymorphism with the abstract class and interface from the hierarchy.
