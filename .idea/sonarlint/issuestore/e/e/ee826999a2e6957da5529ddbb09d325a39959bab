@@ -1,6 +1,6 @@
 
-C
-java:S1170"!Make this final field static too.(ó¿¬òùÿÿÿÿ8şïº—2
-G	java:S106"+Replace this use of System.out by a logger.(ï¦ôº8’şïº—2
-H
-java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ8”şïº—2
+i
+java:S1170"!Make this final field static too.(ó¿¬òùÿÿÿÿ8şïº—2J$5c5229de-b1aa-4076-ac91-460e1bfe451c
+m	java:S106"+Replace this use of System.out by a logger.(ú¨ú³8’şïº—2J$dc72a456-1cf6-4142-9764-fd4289a3034e
+n
+java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ8”şïº—2J$d36695a2-96d5-448b-8332-9f20ba183c70

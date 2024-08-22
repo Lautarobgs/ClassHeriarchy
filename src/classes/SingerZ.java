@@ -5,7 +5,7 @@ import java.util.List;
 public final class SingerZ {
 
     public final Integer maxSingers = 5000;
-    private static  Long nextId = 0L;
+    private static  Long totalSingers = 0L;
 
     private String name;
     private Integer age;
@@ -15,10 +15,10 @@ public final class SingerZ {
         this.name = name;
         this.age = age;
         this.allGenres = allGenres;
-        this.id = nextId++;
+        this.id = totalSingers++;
     }
     public static void totalSingers(){
-        System.out.println("There are a total of:" + nextId + " singers");
+        System.out.println("There are a total of:" + totalSingers + " singers");
     }
     public String getName() {
         return name;
