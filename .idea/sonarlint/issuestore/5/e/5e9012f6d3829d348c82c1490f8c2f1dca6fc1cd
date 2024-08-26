@@ -1,7 +1,7 @@
 
-	java:S116	"VRename this field "MAX_SINGERS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒèÁşÿÿÿÿ8” ãû˜2J$0fddcd36-24a8-4741-8c51-a95c5d1608aa
+	java:S116	"VRename this field "MAX_SINGERS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒèÁşÿÿÿÿ8” ãû˜2J$45079e9a-e99a-496d-a187-c679036cb505
 i
-java:S1170	"!Make this final field static too.(ƒèÁşÿÿÿÿ8şïº—2J$3969cb51-336c-4ae3-9cab-cdbd87fd72f1
-m	java:S106"+Replace this use of System.out by a logger.(ú¨ú³8’şïº—2J$84255854-e474-433a-b656-4552a7b73a62
+java:S1170	"!Make this final field static too.(ƒèÁşÿÿÿÿ8şïº—2J$702700ca-0289-47fa-972e-9cd6eb710e1b
+m	java:S106"+Replace this use of System.out by a logger.(ú¨ú³8’şïº—2J$e47b568a-7f7e-47ec-9b88-7520dc7b800b
 n
-java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ8”şïº—2J$e63ce811-881d-4e2c-b8f2-eefa5ac7cf23
+java:S1068"&Remove this unused "id" private field.(şÓî«şÿÿÿÿ8”şïº—2J$79c2bef1-5a2e-4039-8fb9-0ff501427e59
