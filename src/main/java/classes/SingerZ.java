@@ -1,17 +1,22 @@
 package classes;
 
+import exceptions.MaxSingerException;
+
 import java.util.List;
 
 public final class SingerZ {
 
-    public final Integer maxSingers = 5000;
+    public final Integer MAX_SINGERS = 10;
     private static  Long totalSingers = 0L;
 
     private String name;
     private Integer age;
     private Long id;
     private List<MusicGenre> allGenres;
-    public SingerZ(String name, Integer age, List<MusicGenre> allGenres) {
+    public SingerZ(String name, Integer age, List<MusicGenre> allGenres) throws MaxSingerException {
+        if (totalSingers >= MAX_SINGERS) {
+            throw new MaxSingerException("Cannot create more than " + MAX_SINGERS + " singers.");
+        }
         this.name = name;
         this.age = age;
         this.allGenres = allGenres;

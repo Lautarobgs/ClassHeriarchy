@@ -1,0 +1,11 @@
+
+m	java:S106"+Replace this use of System.out by a logger.(ÇòÇ×8Ëà¨º—2J$68d94e4b-7d73-4158-a4aa-510431f582b0
+m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$7b3fcc7c-67c9-48d2-9459-074dc3487ff7
+m	java:S106@"+Replace this use of System.out by a logger.(™Š•8Ïà¨º—2J$149a957f-edd8-4276-b7f0-1bc24d47074d
+r	java:S106E"+Replace this use of System.out by a logger.(¸¢§©şÿÿÿÿ8Ğà¨º—2J$45b5b723-4e2d-458d-ab46-0939dd6b71d5
+r	java:S106O"+Replace this use of System.out by a logger.(íåÓƒÿÿÿÿÿ8ˆ°Áº—2J$8c04ed44-e4a7-48db-bb92-daa71c8e548d
+„
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$14955389-3790-4365-9b79-c8956a07958f
+m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$378d17f1-f234-4e82-895c-f0f3bf413d2d
+{
+java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$133b3d74-b9a1-420d-970b-ec4f93582ec4
