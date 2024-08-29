@@ -1,38 +1,4 @@
 
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-K
-src/classes/MusicGenre.java,0\4\0487c45431be54f74efc312f86fdeba20e31e867
-E
-src/classes/Rock.java,5\8\580be816072641c31b9a235a5ae55a9120d31ab6
-D
-src/classes/Pop.java,f\b\fb46a55e00b5245a351df34361ab799c25fffe62
-D
-src/classes/Rap.java,4\a\4a8b2b7f08b38df40d06203511f02c0ee954c2c1
-F
-src/classes/Tango.java,8\3\83954f309ad542b6815deb7849243f7fc97ce7be
-F
-src/classes/Metal.java,6\9\69e2f2f12fac029d751635f398678cfd9b996e43
-E
-src/classes/Punk.java,4\3\43f3a4d2155f7b2a7f3962675752fb582e4d40c8
-G
-src/classes/Techno.java,f\3\f3d75b8f3ec15714474ad420f12096fe5fa1196e
-G
-src/classes/IndieZ.java,9\7\97cf4197aae31bcc43d168b0edfc604136ebabc3
-H
-src/classes/Classic.java,c\f\cfc6108fb38483c35397b583ce4726cf211a4189
-O
-src/interfaces/IMusicGenre.java,3\4\3439497aa275bebd107c007059e7d06e80ebb934
-K
-src/interfaces/IIndieZ.java,2\1\2165a35498e33c578519f5897c8ab6aed640930a
-H
-src/classes/SingerZ.java,e\e\ee826999a2e6957da5529ddbb09d325a39959bab
-J
-src/interfaces/IMetal.java,4\c\4c6e1e274ae5621195198ae65f024faf7406a4fe
-H
-src/interfaces/IPop.java,1\c\1cc0356218bfe4f3a273cd8b65ca092a8ef34955
-I
-src/interfaces/IPunk.java,6\1\61b8fcb411bc638089be70ba41735bb91f70eabc
 B
 ClassHeriarchy.iml,9\a\9a3258f22bf2c77af992966f0453afa9c3d9a1e6
 7
@@ -81,3 +47,7 @@ S
 0src/main/java/exceptions/WrongInfoException.java,c\5\c59f14febc0d9a18719c09d74b2d200d6cac9d75
 `
 0src/main/java/exceptions/MaxGenresException.java,3\c\3c44bfab458c756295b3584f3d348bd5a65a5344
+R
+"src/main/java/classes/Classic.java,7\c\7c5ce285bfaa419c89d1ed8d969f0d4b57814c32
+V
+&src/main/java/generic/GLinkedList.java,b\6\b65660c9dcb7ffcc9368b10895cc3fb1a352f3ad

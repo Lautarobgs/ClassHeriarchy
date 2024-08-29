@@ -1,9 +1,11 @@
 
 ›
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8ÊŒäü˜2J$9fa4a34a-484b-449b-803b-f2881e0be507
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8Ïã™2J$dcaae4a4-1937-48d7-8ae6-29091993bfc7
 ¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8ÊŒäü˜2J$d7b637df-afbe-43e0-b3a9-ffbe51cbc6c2
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½éÈÇûÿÿÿÿ8Ïã™2J$5aa91bd7-895d-405b-a261-0a07d87e0861
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8Ïã™2J$e885797a-c154-4c7d-9135-af1e5aca357b
 ‚
-java:S1854"":Remove this useless assignment to local variable "singer".(¹é´°ıÿÿÿÿ8ÎŒäü˜2J$0bd7447b-69c3-4e4c-980e-ac726aeaf944
+java:S1854(":Remove this useless assignment to local variable "singer".(¹é´°ıÿÿÿÿ8Õã™2J$f1920e2d-1c51-43eb-b543-23d282476755
 s
-java:S1481""+Remove this unused "singer" local variable.(¹é´°ıÿÿÿÿ8ÑŒäü˜2J$0bcca5f2-6718-4a7c-b9ba-73f8c7c9a531
+java:S1481("+Remove this unused "singer" local variable.(¹é´°ıÿÿÿÿ8Ùã™2J$e6a5d02f-1412-4221-b703-e5db25d6720a

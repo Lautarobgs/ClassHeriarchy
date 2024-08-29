@@ -1,0 +1,8 @@
+
+­
+java:S1319	"kThe type of "mainArtists" should be an interface such as "List" rather than the implementation "ArrayList".(÷®ºT8úÁõâ™2J$5657c244-0c4d-4215-804a-79b05b8c4756
+e	java:S106"+Replace this use of System.out by a logger.(ƒŞÄJ$f394c0a3-fbce-4db4-b7e3-73e12b206269
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ëóöâ™2
+r
+java:S1068"/Remove this unused "mainArtists" private field.(Ÿ¬è€8·Òöâ™2J$a1a7fecb-d1db-48ce-b479-b3838f455331

@@ -1,7 +1,7 @@
 
 ³
-java:S1319"kThe type of "instruments" should be an interface such as "List" rather than the implementation "ArrayList".(Úÿ·üıÿÿÿÿ8»œöû˜2J$74b12600-df27-4e27-aea1-c5ae7583f3db
+java:S1319"kThe type of "instruments" should be an interface such as "List" rather than the implementation "ArrayList".(Úÿ·üıÿÿÿÿ8»œöû˜2J$e3587106-03d9-4fcb-9486-409f6ece1f18
 ³
-java:S1319"kThe type of "instruments" should be an interface such as "List" rather than the implementation "ArrayList".(Íæ€‹ıÿÿÿÿ8¼œöû˜2J$13817ede-76a1-4b5c-ad79-2b7452450ccc
-l	java:S106"+Replace this use of System.out by a logger.(ååÄ!8ùÀ¼à”2J$f15d8fb7-a02b-48f6-8d0d-739ce9f88c97
-m	java:S1063"+Replace this use of System.out by a logger.(£§üŞ8­Ğ±º—2J$ac2a4831-a9cd-47f1-88d7-e7158a5887b4
+java:S1319"kThe type of "instruments" should be an interface such as "List" rather than the implementation "ArrayList".(Íæ€‹ıÿÿÿÿ8¼œöû˜2J$9c314589-c7ab-4544-9e27-6975f30034e9
+l	java:S106"+Replace this use of System.out by a logger.(ååÄ!8ùÀ¼à”2J$283059c3-6bb5-4c02-8b8c-a2a7143e8e03
+m	java:S1063"+Replace this use of System.out by a logger.(£§üŞ8­Ğ±º—2J$5202ddaa-d7f1-4deb-80dd-42a1eb075330

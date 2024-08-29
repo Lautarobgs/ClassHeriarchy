@@ -5,7 +5,9 @@ import org.apache.logging.log4j.Logger;
 
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
   private static  Logger logger = LogManager.getLogger(Main.class);
@@ -15,7 +17,10 @@ public class Main {
     instruments.add("Electric Guitar");
     instruments.add("Keyboard");
     instruments.add("Drums");
-
+    Set<String> instrumentsSet = new HashSet<String>();
+    instrumentsSet.add("Piano");
+    instrumentsSet.add("Acoustic guitar");
+    instrumentsSet.add("Flute");
     ///Usage of polymorphism
     MusicGenre rock = new Rock("Classic rock","50s",1000000000);
     MusicGenre indie =  new IndieZ("Alternative","60s","United States");
@@ -26,6 +31,7 @@ public class Main {
       genres.add(metal);
     for (MusicGenre genre : genres) {
       genre.play();
+
     }
     ((IndieZ)indie).showLyrics(); ///Casting IndieZ into MusicGenre
 
