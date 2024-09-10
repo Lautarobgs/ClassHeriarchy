@@ -12,8 +12,19 @@ import java.util.Set;
 public class Main {
   private static  Logger logger = LogManager.getLogger(Main.class);
   public static void main(String[] args) {
+    String txtRoute = "src/main/java/resources/lyrics.txt";
+    System.out.println("There are a total of: " +UniqueWordCounter.countUniqueWords(txtRoute) +" unique word");
 
-    ArrayList<String> instruments = new ArrayList<String>();
+
+
+
+
+
+
+
+
+
+    /*ArrayList<String> instruments = new ArrayList<String>();
     instruments.add("Electric Guitar");
     instruments.add("Keyboard");
     instruments.add("Drums");
@@ -42,7 +53,6 @@ public class Main {
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }
-
+    }*/
   }
 }

@@ -1,11 +1,5 @@
 
-›
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8Ïã™2J$38d8f74a-39c8-40fc-aaf7-afc0e0880e8a
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½éÈÇûÿÿÿÿ8Ïã™2J$35a88c5f-4058-48ad-8dda-f18acccaf16d
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8Ïã™2J$7ae58b73-4927-4e0a-a2d6-016104bfb5f2
-‚
-java:S1854(":Remove this useless assignment to local variable "singer".(¹é´°ıÿÿÿÿ8Õã™2J$eda2daff-6270-400b-a53e-aeb669a9725f
-s
-java:S1481("+Remove this unused "singer" local variable.(¹é´°ıÿÿÿÿ8Ùã™2J$969b8cf5-5175-43bb-ac21-6ee6442e7ba9
+m	java:S106"+Replace this use of System.out by a logger.(²¯¶õ8ÂŞüÉ2J$9d2b2381-a263-4e0b-880f-22f5c33de79b
+}	java:S125"<This block of commented-out lines of code should be removed.(­¹«C8’÷éÉ2J$56697596-cf83-4300-b2d2-7b11be49c6fd
+r
+java:S1068"*Remove this unused "logger" private field.(‡ÊçÓıÿÿÿÿ8“÷éÉ2J$4eb26450-0351-4ad5-90f2-4a656c4b0fca
