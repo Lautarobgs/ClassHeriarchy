@@ -1,11 +1,11 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ÇòÇ×8Ëà¨º—2J$72f4569d-9cfd-4e51-8bcc-a411017ee9c9
-m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$f6a3d973-e520-411d-bb12-d06b426f8a3c
-m	java:S106@"+Replace this use of System.out by a logger.(™Š•8Ïà¨º—2J$9bc32197-cea5-412d-8c03-666a6add0749
-r	java:S106E"+Replace this use of System.out by a logger.(¸¢§©şÿÿÿÿ8Ğà¨º—2J$01a13514-75d3-400e-9071-335d3e0ef5e3
-r	java:S106O"+Replace this use of System.out by a logger.(íåÓƒÿÿÿÿÿ8ˆ°Áº—2J$739ccd88-c10c-4999-b72e-ddf0b7f3ad7e
+m	java:S106"+Replace this use of System.out by a logger.(ÇòÇ×8Ëà¨º—2J$1ed8b383-a00d-4f82-a92f-716ccccbfe0f
+m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$89116bb1-8aa0-4f65-a6b5-08bfb02c40e9
+m	java:S106@"+Replace this use of System.out by a logger.(™Š•8Ïà¨º—2J$43d429ad-c22b-4f4e-a0e5-a3c6b2ae2852
+r	java:S106E"+Replace this use of System.out by a logger.(¸¢§©şÿÿÿÿ8Ğà¨º—2J$5c209287-dce3-441c-b90f-d3cc894969d9
+r	java:S106O"+Replace this use of System.out by a logger.(íåÓƒÿÿÿÿÿ8ˆ°Áº—2J$4a5a1620-c822-4798-b8da-2b6f1780f637
 „
-java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$de049f00-363e-42eb-8d79-802a15d0c520
-m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$d1478753-e794-4b48-b427-61e191a22b4e
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$611326f4-7f09-45ae-a2bb-70522c869c6d
+m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$5ec7be13-679f-4ad0-83cc-9668ad0dcd79
 {
-java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$98c29a32-8607-479d-9dc9-21490da1ca2a
+java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$6affdbab-27e2-440d-978b-33ab91fb70ee

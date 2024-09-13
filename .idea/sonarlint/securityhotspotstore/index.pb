@@ -53,3 +53,13 @@ V
 &src/main/java/generic/GLinkedList.java,b\6\b65660c9dcb7ffcc9368b10895cc3fb1a352f3ad
 \
 ,src/main/java/classes/UniqueWordCounter.java,a\e\ae64066a2a7484d7342d5b1b434aa622d968f282
+S
+#src/main/java/enums/MusicGenre.java,2\c\2c07489630994179d9b78e381c93e502b9af38ae
+S
+#src/main/java/enums/Instrument.java,a\1\a1ddcb0dd8fbe2285e252fef6340e14c112f385d
+V
+&src/main/java/enums/Daysoftheweek.java,e\f\efc6f51d18439686431f14b5ecc4bee198fce153
+U
+%src/main/java/enums/MusicalNotes.java,9\d\9da22eebf3af95761098d62fa22f77cf6fa8113a
+S
+#src/main/java/enums/MusicTempo.java,4\8\489f55f37836626f35639644b87488fca2938c65
