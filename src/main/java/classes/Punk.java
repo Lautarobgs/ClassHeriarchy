@@ -1,10 +1,12 @@
 package classes;
 
 import interfaces.IPunk;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Punk extends MusicGenre implements IPunk {
   private String style;
-
+  private static final Logger logger = LogManager.getLogger(Punk.class);
   public Punk(String name, String origin, String style) {
     super(name, origin);
     this.style = style;
@@ -20,11 +22,11 @@ public class Punk extends MusicGenre implements IPunk {
 
   @Override
   public void play() {
-    System.out.println("Now listening to punk");
+    logger.info("Now listening to punk");
   }
 
   @Override
   public void getBandInfo() {
-    System.out.println("lorem ipsum");
+    logger.info("lorem ipsum");
   }
 }

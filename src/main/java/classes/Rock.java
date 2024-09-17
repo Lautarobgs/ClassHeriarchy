@@ -1,8 +1,11 @@
 package classes;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Rock extends MusicGenre{
   private Integer totalStreams;
-
+  private static final Logger logger = LogManager.getLogger(Rock.class);
   public Rock(String name, String origin, Integer totalStreams) {
     super(name, origin);
     this.totalStreams = totalStreams;
@@ -10,7 +13,7 @@ public class Rock extends MusicGenre{
 
   @Override
   public void play(){
-    System.out.println("Now playing rock");
+    logger.info("Now playing rock");
   }
 
   public Integer getTotalStreams() {

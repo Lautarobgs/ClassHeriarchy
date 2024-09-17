@@ -4,16 +4,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
 
 public class Main {
   private static  Logger logger = LogManager.getLogger(Main.class);
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception{
     String txtRoute = "src/main/java/resources/lyrics.txt";
     logger.info("There are a total of: " +UniqueWordCounter.countUniqueWords(txtRoute) +" unique word");
 ArrayList<String> instruments = new ArrayList<String>();
@@ -60,6 +61,16 @@ ArrayList<String> instruments = new ArrayList<String>();
     String combinedInstrument = combineInstruments.apply(instruments.get(0), instruments.get(1));
     logger.info("Combined Instruments: " + combinedInstrument);
 
+    //6- Sort musical genre by name
+      List<MusicGenre> sortedGenres = genres.stream()
+              .sorted(Comparator.comparing(MusicGenre::getName)) // Non-terminal
+              .collect(Collectors.toList()); // Terminal
+      logger.info("Sorted Genres: " + sortedGenres);
+
+    //7-Count genres
+      long genreCount = genres.stream()
+              .count();
+      logger.info("Total genres: " + genreCount);
 
     for (MusicGenre genre : genres) {
       genre.play();
@@ -67,6 +78,42 @@ ArrayList<String> instruments = new ArrayList<String>();
     }
 
 
+    //Reflection
+      Class<?> clazz = Main.class;
+    ///Obtain field info
+      Field[] fields = clazz.getDeclaredFields();
+      for (Field field : fields) {
+          logger.info("Field: " + field.getName());
+          logger.info("Type: " + field.getType());
+          logger.info("Modifiers: " + Modifier.toString(field.getModifiers()));
+      }
+
+    ///Constructor info
+      Constructor<?>[] constructors = clazz.getConstructors();
+      for (Constructor<?> constructor : constructors) {
+          logger.info("Constructor: " + constructor.getName());
+          logger.info("Parameter count: " + constructor.getParameterCount());
+      }
+    ///Method info
+      Method[] methods = clazz.getDeclaredMethods();
+      for (Method method : methods) {
+          logger.info("Method: " + method.getName());
+          logger.info("Return type: " + method.getReturnType());
+          logger.info("Parameter count: " + method.getParameterCount());
+      }
+
+    ///Create rock object via reflection
+      Class<?> rockClass = Rock.class;
+
+      // Obtaining el constructor
+      Constructor<?> rockConstructor = rockClass.getConstructor(String.class, String.class, Integer.class);
+
+      // Creating new instance
+      Object rockInstance = rockConstructor.newInstance("Classic Rock", "50s", 1000000000);
+
+      // Use reflection to invoke method
+      Method playMethod = rockClass.getMethod("play");
+      playMethod.invoke(rockInstance);  // Invocar el método play()
 
     /*
     ((IndieZ)indie).showLyrics(); ///Casting IndieZ into MusicGenre

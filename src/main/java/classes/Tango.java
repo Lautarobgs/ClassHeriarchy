@@ -1,8 +1,11 @@
 package classes;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Tango extends MusicGenre{
   private String impact;
-
+  private static final Logger logger = LogManager.getLogger(Tango.class);
   public Tango(String name, String origin, String impact) {
     super(name, origin);
     this.impact = impact;
@@ -18,6 +21,6 @@ public class Tango extends MusicGenre{
 
   @Override
   public void play() {
-    System.out.println("Now playing to Tango");
+    logger.info("Now playing to Tango");
   }
 }

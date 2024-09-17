@@ -1,6 +1,8 @@
 package classes;
 
 import interfaces.IMetal;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.Objects;
 
 public class Metal extends MusicGenre implements IMetal {
   protected ArrayList<String> instruments;
-
+  private static final Logger logger = LogManager.getLogger(Metal.class);
   public Metal(String name, String origin, ArrayList<String> instruments) {
     super(name, origin);
     this.instruments = instruments;
@@ -48,6 +50,6 @@ public class Metal extends MusicGenre implements IMetal {
 
   @Override
   public void deleteSong() {
-    System.out.println("Song succesfully deleted");
+    logger.info("Song succesfully deleted");
   }
 }

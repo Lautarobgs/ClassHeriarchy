@@ -1,8 +1,12 @@
 package generic;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class GLinkedList<T> {
     private Node<T> head;
     private int size;
+    private static Logger logger = LogManager.getLogger(GLinkedList.class);
 
     // Node class to represent each element in the LinkedList
     private static class Node<T> {
@@ -82,7 +86,7 @@ public class GLinkedList<T> {
     public void printList() {
         Node<T> current = head;
         while (current != null) {
-            System.out.print(current.data + " ");
+            logger.info(current.data + " ");
             current = current.next;
         }
         System.out.println();

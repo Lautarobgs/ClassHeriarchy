@@ -1,36 +1,62 @@
 
 ›
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8­“Æ2J$d5b7cf29-1fb3-4f98-aa90-899de2aa8629
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8­“Æ2J$1d540ff5-96e6-45f3-b37d-0718a72961bb
 ¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½éÈÇûÿÿÿÿ8®“Æ2J$0e72abdf-9118-4435-a2fc-7bfb4c436a7b
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½éÈÇûÿÿÿÿ8®“Æ2J$56e907ae-731a-4330-97d0-f2b05cdf76a0
 ¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8®“Æ2J$65a05da3-055f-43a1-8a81-1e75a84427d0
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8®“Æ2J$bbd26bf5-b6e8-42e4-a39b-90046b87b5ef
 Ÿ
-java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(šŸ»ı8®“Æ2J$4989fd22-61b7-4f96-b811-92e955f4418b
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(šŸ»ı8®“Æ2J$17b70c5c-a3d1-4bc2-ad3a-4c2e4d69af32
 z
-java:S2629)"7Use the built-in formatting to construct this argument.(¹Â·8õ›Æ2J$a0bd5c96-6151-402e-b990-79fb71d6ee95
+java:S2629*"7Use the built-in formatting to construct this argument.(¹Â·8õ›Æ2J$b1731dad-7068-463e-95f5-8dafbbfff922
 z
-java:S26290"7Use the built-in formatting to construct this argument.(™Œ¡ğ8éë¤Æ2J$bfd08a94-3ddf-4c37-b45d-2fa40877c9f7
+java:S26291"7Use the built-in formatting to construct this argument.(™Œ¡ğ8éë¤Æ2J$cd4fd48c-cb5f-42d6-bb63-9f366a735f7f
 z
-java:S26293"7Use the built-in formatting to construct this argument.(àµ¨¸8¼Õ§Æ2J$0edf4ca3-6607-45b5-b2cd-df891e986e98
+java:S26294"7Use the built-in formatting to construct this argument.(àµ¨¸8¼Õ§Æ2J$b18c4593-b0bd-4435-84de-737378429bb2
 
-java:S2629="7Use the built-in formatting to construct this argument.(¯Éàùÿÿÿÿ8”ä¶Æ2J$a02b10ed-5e08-4c9f-be02-4f6fad38e4b6
+java:S2629>"7Use the built-in formatting to construct this argument.(¯Éàùÿÿÿÿ8”ä¶Æ2J$030c0360-30de-4db3-b597-8051810900bd
+z
+java:S2629D"7Use the built-in formatting to construct this argument.(ó û˜8Ø° 2J$b9f9ce34-7a31-499a-ab31-54ec2a94c5c1
+z
+java:S2629I"7Use the built-in formatting to construct this argument.(Å“Æ¨8ã³ 2J$b0561957-4292-4bf3-b71b-e3e6a4e0b234
+
+java:S2629X"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(º‹f8´ëÇ 2J$143dafea-71c3-4230-aa57-5b0b3875ee45
 „
-java:S3457"AFormat specifiers should be used instead of string concatenation.(šŸ»ı8µ“Æ2J$8741184b-9807-466a-90e3-5d63c5f39aa5
+java:S3457"AFormat specifiers should be used instead of string concatenation.(šŸ»ı8µ“Æ2J$60beb778-bd99-4c30-a29a-09e29d27f334
 „
-java:S3457)"AFormat specifiers should be used instead of string concatenation.(¹Â·8”õ›Æ2J$ec6e5381-f61a-41d8-9844-ca1fdcbc5161
+java:S3457*"AFormat specifiers should be used instead of string concatenation.(¹Â·8”õ›Æ2J$80e3078d-f84b-4b14-b983-2d0eeea631a3
 £
-java:S4276,"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÿ‰ùşûÿÿÿÿ8Š¤Æ2J$95afb34a-4528-45d4-8f2b-5e7d776aa23b
+java:S4276-"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÿ‰ùşûÿÿÿÿ8Š¤Æ2J$5ceee0fa-eb14-43b8-90ce-dc7dcc82aebf
 „
-java:S34570"AFormat specifiers should be used instead of string concatenation.(™Œ¡ğ8òë¤Æ2J$9dd195e8-2aaa-471b-9940-ab38654a9e40
+java:S34571"AFormat specifiers should be used instead of string concatenation.(™Œ¡ğ8òë¤Æ2J$c23546ff-fe15-43a1-9958-8607155a6636
 „
-java:S34573"AFormat specifiers should be used instead of string concatenation.(àµ¨¸8ÄÕ§Æ2J$5fc301cc-5225-4a6b-925f-24fa92044555
+java:S34574"AFormat specifiers should be used instead of string concatenation.(àµ¨¸8ÄÕ§Æ2J$bfd35637-09d9-44c7-9997-a9607d2a03b4
 ‰
-java:S34578"AFormat specifiers should be used instead of string concatenation.(şŸ»Èÿÿÿÿÿ8õ¿³Æ2J$d984eade-841b-4f52-ae4f-2598bef65c85
+java:S34579"AFormat specifiers should be used instead of string concatenation.(şŸ»Èÿÿÿÿÿ8Ìö¨ 2J$a24e8361-b0ce-4e41-94f1-26116a378785
 ‰
-java:S3457="AFormat specifiers should be used instead of string concatenation.(¯Éàùÿÿÿÿ8œä¶Æ2J$4454f5e0-d7bb-46a2-90fa-968b3d004a2a
-ƒ	java:S125J"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ8•à±Æ2J$8429f66a-6701-4bbe-bb7c-5b2706ef1c5b
+java:S3457>"AFormat specifiers should be used instead of string concatenation.(¯Éàùÿÿÿÿ8œä¶Æ2J$30174203-8560-46b4-a661-6ea73fa2f267
+Â
+java:S6204C"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(÷é¶¶ùÿÿÿÿ8­í° 2J$42df315b-405a-483c-ab34-39853024b75f
+„
+java:S3457D"AFormat specifiers should be used instead of string concatenation.(ó û˜8©Ø° 2J$a83deea7-a46d-4cb2-bcd2-5162cf48a979
+„
+java:S3457I"AFormat specifiers should be used instead of string concatenation.(Å“Æ¨8í³ 2J$abdd0411-249b-4275-8446-8e170a3fcb5d
+‰
+java:S3457V"AFormat specifiers should be used instead of string concatenation.(Œ›Øûÿÿÿÿ8ÕÎÇ 2J$613c9516-0958-4e6e-8dc4-dd4794bbce7e
+‰
+java:S3457W"AFormat specifiers should be used instead of string concatenation.(‚€¿Œÿÿÿÿÿ8ÖÎÇ 2J$4183fd3b-cbb6-4e6f-a356-14e151b99f6a
+ƒ
+java:S3457X"AFormat specifiers should be used instead of string concatenation.(º‹f8¿ëÇ 2J$a0fc9e40-0247-4b80-adbe-048f9d9f7369
+‰
+java:S3457^"AFormat specifiers should be used instead of string concatenation.(Øå…ùÿÿÿÿ8É£Ê 2J$1e5f33f7-e7a9-423f-8935-f478dd0b2ce7
+„
+java:S3457_"AFormat specifiers should be used instead of string concatenation.(¤¼Îî8Ê£Ê 2J$3249090f-833a-48a1-8edb-49d8761e0c2c
+„
+java:S3457d"AFormat specifiers should be used instead of string concatenation.(§¦ù8•ŞÌ 2J$4ceadc82-7bb7-45e1-98b6-8db2182f3488
+„
+java:S3457e"AFormat specifiers should be used instead of string concatenation.(ó»›É8•ŞÌ 2J$4bbe7fda-4cce-4995-adf6-93d15d38784e
+„
+java:S3457f"AFormat specifiers should be used instead of string concatenation.(²´„º8–ŞÌ 2J$502b9651-a426-4ed4-8dcd-ddfd80ed9155
+ƒ	java:S125y"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ8²Ä 2J$28bb9561-b881-4f86-adcd-9af65da20a51
 }
-java:S1128":Remove this unused import 'exceptions.MaxSingerException'.(å„°Ù8ë±Æ2J$48885682-3cd5-4d5d-ad1e-f1a7ce385fd4
-€
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ì±Æ2J$6c7f061c-6d56-4789-9d08-35c680a7b52a
+java:S1128":Remove this unused import 'exceptions.MaxSingerException'.(å„°Ù8ÀëÇ 2J$7255dfb1-4e3b-4692-be74-31976b39a2e3

@@ -1,11 +1,7 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ÇòÇ×8Ëà¨º—2J$1ed8b383-a00d-4f82-a92f-716ccccbfe0f
-m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$89116bb1-8aa0-4f65-a6b5-08bfb02c40e9
-m	java:S106@"+Replace this use of System.out by a logger.(™Š•8Ïà¨º—2J$43d429ad-c22b-4f4e-a0e5-a3c6b2ae2852
-r	java:S106E"+Replace this use of System.out by a logger.(¸¢§©şÿÿÿÿ8Ğà¨º—2J$5c209287-dce3-441c-b90f-d3cc894969d9
-r	java:S106O"+Replace this use of System.out by a logger.(íåÓƒÿÿÿÿÿ8ˆ°Áº—2J$4a5a1620-c822-4798-b8da-2b6f1780f637
+m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$35feb7ab-2df3-4655-9acb-ccfab950d969
 „
-java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$611326f4-7f09-45ae-a2bb-70522c869c6d
-m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$5ec7be13-679f-4ad0-83cc-9668ad0dcd79
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$10f07a5b-8684-46f1-9a4d-fc68167b6b91
+m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$59685261-39a6-4a7e-a6e3-60b57b6f6412
 {
-java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$6affdbab-27e2-440d-978b-33ab91fb70ee
+java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$97cf492f-3356-455e-be2f-fa363a1aac11

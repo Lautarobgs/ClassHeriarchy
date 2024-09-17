@@ -1,5 +1,8 @@
 
+Y
+java:S2629Y"7Use the built-in formatting to construct this argument.(úéÖéúÿÿÿÿ8«á 2
+‰
+java:S2259="FA "NullPointerException" could be thrown; "previous" is nullable here.(•âô„8æÿß 2J$898b1547-5b5d-48fa-8ab7-4ce344c65c3b
 c
-java:S22599"FA "NullPointerException" could be thrown; "previous" is nullable here.(•âô„8©—èâ™2
-L	java:S106U"+Replace this use of System.out by a logger.(€Ä€ôúÿÿÿÿ8¾—èâ™2
-L	java:S106X"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¾—èâ™2
+java:S3457Y"AFormat specifiers should be used instead of string concatenation.(úéÖéúÿÿÿÿ8³á 2
+r	java:S106\"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ïÿß 2J$9970514e-6944-4f4a-a10a-fbea191689b5

@@ -25,7 +25,7 @@ public class IndieZ extends MusicGenre implements IIndieZ {
   }
 
   static {
-    System.out.println("Loading IndieZ class...");
+    logger.debug("Loading IndieZ class...");
   }
   ///Overriding abstract method
   @Override
@@ -61,12 +61,12 @@ public class IndieZ extends MusicGenre implements IIndieZ {
 
   @Override
   public void pause() {
-    System.out.println("Music paused");
+    logger.info("Music paused");
   }
 
   @Override
   public void skipSong() {
-    System.out.println("Song skipped");
+    logger.info("Song skipped");
   }
 
   @Override
@@ -76,7 +76,7 @@ public class IndieZ extends MusicGenre implements IIndieZ {
     try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
       String linea;
       while ((linea = reader.readLine()) != null) {
-        System.out.println(linea);
+        logger.info(linea);
       }
     } catch (IOException e) {
       logger.error("Error reading the lyrics: " + path, e);

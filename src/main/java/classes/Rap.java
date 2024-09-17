@@ -1,8 +1,11 @@
 package classes;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Rap extends MusicGenre{
   private Boolean isFreestyle;
-
+  private static final Logger logger = LogManager.getLogger(Rap.class);
   public Rap(String name, String origin, Boolean isFreestyle) {
     super(name, origin);
     this.isFreestyle = isFreestyle;
@@ -10,7 +13,7 @@ public class Rap extends MusicGenre{
 
   @Override
   public void play() {
-    System.out.println("Now listening to Rap");
+    logger.info("Now listening to Rap");
   }
 
   public Boolean getFreestyle() {

@@ -1,8 +1,11 @@
 package classes;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Techno extends MusicGenre{
   private String bestProducer;
-
+  private static final Logger logger = LogManager.getLogger(Techno.class);
   public Techno(String name, String origin, String bestProducer) {
     super(name, origin);
     this.bestProducer = bestProducer;
@@ -10,7 +13,7 @@ public class Techno extends MusicGenre{
 
   @Override
   public void play() {
-    System.out.println("Now listening to Techno");
+    logger.info("Now listening to Techno");
   }
 
   public String getBestProducer() {
