@@ -16,7 +16,6 @@ public class UniqueWordCounter {
             String content = FileUtils.readFileToString(file, "UTF-8");
 
             String[] words = StringUtils.split(content, " ,.;!?");
-
             Set<String> uniqueWords = new HashSet<>();
             for (String word : words) {
                 uniqueWords.add(word.toLowerCase());

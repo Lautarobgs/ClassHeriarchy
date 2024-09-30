@@ -63,3 +63,5 @@ U
 %src/main/java/enums/MusicalNotes.java,9\d\9da22eebf3af95761098d62fa22f77cf6fa8113a
 S
 #src/main/java/enums/MusicTempo.java,4\8\489f55f37836626f35639644b87488fca2938c65
+Z
+*src/main/java/resources/classhierarchy.sql,4\c\4c632ce52cec8c1b6922f8478cda86687dac1587

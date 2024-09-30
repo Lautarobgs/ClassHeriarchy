@@ -1,7 +1,6 @@
 
-m	java:S106!"+Replace this use of System.out by a logger.(¦Ã¦ø8Ïà¨º—2J$35feb7ab-2df3-4655-9acb-ccfab950d969
 „
-java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$10f07a5b-8684-46f1-9a4d-fc68167b6b91
-m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$59685261-39a6-4a7e-a6e3-60b57b6f6412
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(±õë¨8ŠÆø˜2J$3925d1d1-aca1-4e7d-98a6-2b783ee57148
+m	java:S106W"+Replace this use of System.out by a logger.(µÖ…«8ûÆÂø˜2J$651a4db1-dba6-431c-82b1-31523cf514b0
 {
-java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$97cf492f-3356-455e-be2f-fa363a1aac11
+java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8½­Îø˜2J$2f1c5674-8c6d-4dfd-8a37-76b6052ac142

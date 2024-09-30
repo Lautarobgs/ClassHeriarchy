@@ -18,7 +18,7 @@ public class Metal extends MusicGenre implements IMetal {
 
   @Override
   public void play() {
-    System.out.println("Now listening to Metal");
+    logger.info("Now listening to Metal");
   }
 
   public List<String> getInstruments() {

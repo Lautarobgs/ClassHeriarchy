@@ -13,6 +13,7 @@ import java.util.function.*;
 import java.util.stream.Collectors;
 
 public class Main {
+
   private static  Logger logger = LogManager.getLogger(Main.class);
   public static void main(String[] args) throws Exception{
     String txtRoute = "src/main/java/resources/lyrics.txt";
@@ -41,10 +42,10 @@ ArrayList<String> instruments = new ArrayList<String>();
             .toList();
     logger.info("Instruments containing 'Guitar': " + guitarInstruments);
 
-    //2-Convert instrument names to uppercase
+    //2-Convert instrument names to uppercase, it would be better if i use UnaryOperator tbh
     Function<String, String> toUpperCase = String::toUpperCase;
     List<String> upperCaseInstruments = instruments.stream()
-            .map(toUpperCase)
+            .map(String::toUpperCase)
             .toList();
     logger.info("Instruments in uppercase: " + upperCaseInstruments);
 
@@ -79,7 +80,7 @@ ArrayList<String> instruments = new ArrayList<String>();
 
 
     //Reflection
-      Class<?> clazz = Main.class;
+      Class<?> clazz = IndieZ.class;
     ///Obtain field info
       Field[] fields = clazz.getDeclaredFields();
       for (Field field : fields) {
@@ -115,7 +116,7 @@ ArrayList<String> instruments = new ArrayList<String>();
       Method playMethod = rockClass.getMethod("play");
       playMethod.invoke(rockInstance);  // Invocar el método play()
 
-    /*
+
     ((IndieZ)indie).showLyrics(); ///Casting IndieZ into MusicGenre
 
     try {
@@ -125,6 +126,6 @@ ArrayList<String> instruments = new ArrayList<String>();
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }*/
+    }
   }
 }

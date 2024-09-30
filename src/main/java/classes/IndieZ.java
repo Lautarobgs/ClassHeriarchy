@@ -30,7 +30,7 @@ public class IndieZ extends MusicGenre implements IIndieZ {
   ///Overriding abstract method
   @Override
   public void play() {
-    System.out.println("Now listening to Indie");
+    logger.info("Now listening to Indie");
   }
 
   ///Overriding equals,toString & hashCode
