@@ -1,3 +1,6 @@
+SQL requirements at src/main/java/resources/classhierarchy.sql
+
+
 Streams and reflections on main class at line 37-116
 
 
