@@ -38,4 +38,13 @@ public abstract class MusicGenre implements IMusicGenre {
   public void setBpm(Integer bpm) {
     this.bpm = bpm;
   }
+
+  @Override
+  public String toString() {
+    return "MusicGenre{" +
+            "name='" + name + '\'' +
+            ", origin='" + origin + '\'' +
+            ", bpm=" + bpm +
+            '}';
+  }
 }

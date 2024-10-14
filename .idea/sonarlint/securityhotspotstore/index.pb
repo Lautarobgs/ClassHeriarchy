@@ -81,3 +81,13 @@ o
 ?src/main/java/interfaces/jdbcinterfaces/IMusicGenreService.java,a\a\aa6b10b352e6e2602b06ca58047b4a4b804fdb15
 a
 1src/main/java/classes/jdbc/MusicGenreService.java,c\6\c690a9a17129cbdf35a4ae719c1291db205b8c5f
+[
++src/main/java/resources/xml/musicGenres.xml,c\b\cba59ac06fe73093418e05f2dbf27997aa39330a
+[
++src/main/java/resources/xml/musicGenres.xsd,5\2\52b2042d1e4cf425089ea1771aefa8eef10764ee
+c
+3src/main/java/classes/sax/MusicGenresSAXParser.java,7\9\792e40e196e73f4ecfc17d0ee9a6457de0902ca4
+[
++src/main/java/classes/sax/XMLValidator.java,4\0\403b1cb05cca6def8e6299efe733a10ba1418c51
+`
+0src/main/java/classes/sax/MusicGenreHandler.java,9\8\9810816a4ff65ac3d7356a21994fbf582420a510

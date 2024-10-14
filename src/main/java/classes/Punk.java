@@ -29,4 +29,11 @@ public class Punk extends MusicGenre implements IPunk {
   public void getBandInfo() {
     logger.info("lorem ipsum");
   }
+
+  @Override
+  public String toString() {
+    return "Punk{" +
+            "style='" + style + '\'' +
+            '}';
+  }
 }

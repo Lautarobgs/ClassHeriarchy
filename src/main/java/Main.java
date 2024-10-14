@@ -3,13 +3,24 @@ import classes.jdbc.DBConnection;
 import classes.jdbc.GenericDaoImp;
 import classes.jdbc.MusicGenreDAO;
 import classes.jdbc.MusicGenreService;
+import classes.sax.MusicGenreHandler;
 import exceptions.MaxSingerException;
 import interfaces.jdbcinterfaces.GenericDao;
 import interfaces.jdbcinterfaces.IMusicGenreService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.DefaultHandler;
+import org.xml.sax.helpers.XMLReaderFactory;
 
 
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -134,7 +145,7 @@ ArrayList<String> instruments = new ArrayList<String>();
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }*/
+    }
 
       GenericDaoImp<MusicGenreJDBC> genreDAO = new MusicGenreDAO();
 
@@ -143,8 +154,23 @@ ArrayList<String> instruments = new ArrayList<String>();
 
       // Now you can use genreService to interact with the database
       MusicGenreJDBC newGenre = new MusicGenreJDBC("Jazz", "New Orleans");
-      genreService.create(newGenre);
+      genreService.create(newGenre);*/
 
+      try {
+          MusicGenreHandler musicGenreHandler = new MusicGenreHandler("src/main/java/resources/xml/musicGenres.xml", "src/main/java/resources/xml/musicGenres.xsd");
+
+          // Validate XML
+          musicGenreHandler.validateXML();
+
+          // Process the XML and get the genres
+          List<MusicGenre> genres = musicGenreHandler.processMusicGenres();
+          logger.info("Music genres found in the XML:");
+          for (MusicGenre genre : genres) {
+              logger.info(genre.toString());
+          }
+      } catch (Exception e) {
+          logger.error("Error processing the XML file: " + e.getMessage(), e);
+      }
 
   }
 }

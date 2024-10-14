@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicGenres>
+    <IndieZ>
+        <name>Indie Rock</name>
+        <origin>USA</origin>
+        <countryOrigin>USA</countryOrigin>
+    </IndieZ>
+
+    <Metal>
+        <name>Heavy Metal</name>
+        <origin>England</origin>
+        <instrument>Guitar</instrument>
+        <instrument>Drums</instrument>
+    </Metal>
+
+    <Pop>
+        <name>Pop Music</name>
+        <origin>UK</origin>
+        <mostStreamedArtist>Ed Sheeran</mostStreamedArtist>
+    </Pop>
+
+    <Punk>
+        <name>Punk Rock</name>
+        <origin>USA</origin>
+        <style>Fast-paced</style>
+    </Punk>
+
+    <Classic>
+        <name>Classical Music</name>
+        <origin>Europe</origin>
+        <era>Baroque</era>
+        <mainArtists>Beethoven</mainArtists>
+        <mainArtists>Bach</mainArtists>
+    </Classic>
+</musicGenres>

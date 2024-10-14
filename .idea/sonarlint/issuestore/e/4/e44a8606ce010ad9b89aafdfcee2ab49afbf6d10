@@ -1,24 +1,10 @@
 
-
-java:S1854"<Remove this useless assignment to local variable "txtRoute".(¯Ø»ï8¨Ÿç¨2J$479c557b-ae46-48cf-898b-1cf0a4c174fc
-p
-java:S1481"-Remove this unused "txtRoute" local variable.(¯Ø»ï8¨Ÿç¨2J$7e07b842-feef-4b2b-b8b8-0e39a2181d95
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(”„áÚùÿÿÿÿ8 ¨Ÿç¨2J$72ac72a2-4b4a-4f7e-8e04-44abffffc92c
-X
-java:S1128"6Remove this unused import 'classes.jdbc.DBConnection'.(Äÿ“†ÿÿÿÿÿ8ÂÀ­ç¨2
-W
-java:S1128":Remove this unused import 'exceptions.MaxSingerException'.(å„°Ù8ÂÀ­ç¨2
-^
-java:S1128"ARemove this unused import 'interfaces.jdbcinterfaces.GenericDao'.(ã¶ñÚ8ÂÀ­ç¨2
-M
-java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÂÀ­ç¨2
-O
-java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ÂÀ­ç¨2
-C
-java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8ÂÀ­ç¨2
-L
-java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿8ÂÀ­ç¨2
-Z
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ÂÀ­ç¨2
-r
-java:S1068"*Remove this unused "logger" private field.(‡ÊçÓıÿÿÿÿ8–€¤ç¨2J$2ec67b4d-bbb8-4815-9053-bf2800c683a4
+B
+java:S2629©"$Invoke method(s) only conditionally.(Ğ³Èè8í«Êè¨2
+Y
+java:S1854&"<Remove this useless assignment to local variable "txtRoute".(¯Ø»ï8ñ«Êè¨2
+J
+java:S1481&"-Remove this unused "txtRoute" local variable.(¯Ø»ï8ñ«Êè¨2
+]	java:S125'"<This block of commented-out lines of code should be removed.(”„áÚùÿÿÿÿ8ô«Êè¨2
+d
+java:S3457¬"AFormat specifiers should be used instead of string concatenation.(œ Äßÿÿÿÿÿ8ô«Êè¨2

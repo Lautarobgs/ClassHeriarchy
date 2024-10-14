@@ -25,4 +25,11 @@ public class Classic extends MusicGenre{
     this.era = era;
   }
 
+  @Override
+  public String toString() {
+    return "Classic{" +
+            "era='" + era + '\'' +
+            ", mainArtists=" + mainArtists +
+            '}';
+  }
 }
