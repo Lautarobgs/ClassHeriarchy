@@ -1,67 +1,24 @@
 
-›
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÈˆ`8°Æïü 2J$dca52d19-3a9f-43e1-84a9-6a1f28bc9153
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½éÈÇûÿÿÿÿ8°Æïü 2J$4305e8cc-8ea0-46b2-8300-b46b845cd5e7
-¡
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(èØÖıÿÿÿÿ8°Æïü 2J$1d4e5ed1-4eea-4f79-9a5f-9780149c9431
-Ÿ
-java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(šŸ»ı8³Æïü 2J$cebe11d8-12cd-4a03-b0bd-fac94d2f265a
-z
-java:S2629+"7Use the built-in formatting to construct this argument.(¹Â·8³Æïü 2J$45a7dedc-77f6-4a79-8b3d-9130cdd423d3
-z
-java:S26292"7Use the built-in formatting to construct this argument.(™Œ¡ğ8³Æïü 2J$e3a77070-beb4-42eb-a62e-fc89267b3e1d
-z
-java:S26295"7Use the built-in formatting to construct this argument.(àµ¨¸8³Æïü 2J$5911c848-a400-47c5-94ea-b0e11feb7b46
 
-java:S2629?"7Use the built-in formatting to construct this argument.(¯Éàùÿÿÿÿ8³Æïü 2J$9cab2672-0451-412c-8908-9e857896044c
-z
-java:S2629E"7Use the built-in formatting to construct this argument.(ó û˜8´Æïü 2J$59005fe1-328f-4350-814b-60b312762c03
-z
-java:S2629J"7Use the built-in formatting to construct this argument.(Å“Æ¨8´Æïü 2J$ce3d6d70-22ac-4b31-90cd-f052ff3eb3bb
-
-java:S2629Y"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(º‹f8´Æïü 2J$527a7abe-45c3-42c7-a47c-c40a2096a99b
-‡
-java:S1854."?Remove this useless assignment to local variable "toUpperCase".(ÿ‰ùşûÿÿÿÿ8¼Æïü 2J$e8be65c2-9165-49b1-8e5c-0d5190ae4790
-‚
-java:S1854|":Remove this useless assignment to local variable "singer".(¹é´°ıÿÿÿÿ8¼Æïü 2J$63130b02-ad50-4852-a332-25640ca4d869
-„
-java:S3457"AFormat specifiers should be used instead of string concatenation.(šŸ»ı8½Æïü 2J$5a68edbe-960c-4a81-a697-32fe6d067d19
-„
-java:S3457+"AFormat specifiers should be used instead of string concatenation.(¹Â·8ÁÆïü 2J$e571cbba-57fb-437e-b7c4-ea1f94bcc7bf
-£
-java:S4276."[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÿ‰ùşûÿÿÿÿ8ÁÆïü 2J$2107d765-7c5a-43fb-96ce-356838732ba2
-x
-java:S1481."0Remove this unused "toUpperCase" local variable.(ÿ‰ùşûÿÿÿÿ8ÁÆïü 2J$7f19509b-cdfd-41f4-ba66-e5fcf16b538d
-„
-java:S34572"AFormat specifiers should be used instead of string concatenation.(™Œ¡ğ8ÂÆïü 2J$fa8aa87e-1c1b-400a-a1a9-286d896cb238
-„
-java:S34575"AFormat specifiers should be used instead of string concatenation.(àµ¨¸8ÃÆïü 2J$a6b47ba1-b5e6-471e-b8be-eb1e303b4a7c
-‰
-java:S3457:"AFormat specifiers should be used instead of string concatenation.(şŸ»Èÿÿÿÿÿ8ÃÆïü 2J$2b3ea3ea-c4aa-42af-93b3-95c00dd8f396
-‰
-java:S3457?"AFormat specifiers should be used instead of string concatenation.(¯Éàùÿÿÿÿ8ÄÆïü 2J$8be9af03-cec5-491b-aaae-cc7bcbd07344
-Â
-java:S6204D"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(÷é¶¶ùÿÿÿÿ8ÄÆïü 2J$1e9364a1-c26f-4313-b23e-6b6821eadccc
-„
-java:S3457E"AFormat specifiers should be used instead of string concatenation.(ó û˜8ÆÆïü 2J$4871ed6c-3d66-438b-a179-494b13ec737e
-„
-java:S3457J"AFormat specifiers should be used instead of string concatenation.(Å“Æ¨8ÇÆïü 2J$2592cb30-3130-43dd-83e0-ec303f6c78e1
-‰
-java:S3457W"AFormat specifiers should be used instead of string concatenation.(Œ›Øûÿÿÿÿ8ÈÆïü 2J$569b2901-d5de-4409-a158-63f5bd16e8c5
-‰
-java:S3457X"AFormat specifiers should be used instead of string concatenation.(‚€¿Œÿÿÿÿÿ8ÈÆïü 2J$7f8174ae-cf3b-4800-8416-53a971463c5c
-ƒ
-java:S3457Y"AFormat specifiers should be used instead of string concatenation.(º‹f8ÈÆïü 2J$e97f7147-5e83-4846-ae43-b470d7cf6e72
-‰
-java:S3457_"AFormat specifiers should be used instead of string concatenation.(Øå…ùÿÿÿÿ8ÉÆïü 2J$61b5306f-ce3f-45e6-b8bd-a246184504f6
-„
-java:S3457`"AFormat specifiers should be used instead of string concatenation.(¤¼Îî8ÉÆïü 2J$a3f897f3-5391-4683-86f4-64220beaa112
-„
-java:S3457e"AFormat specifiers should be used instead of string concatenation.(§¦ù8ÊÆïü 2J$215e5111-7c5a-4e09-8064-bc6c745d5a9b
-„
-java:S3457f"AFormat specifiers should be used instead of string concatenation.(ó»›É8ËÆïü 2J$73a7b604-e9aa-4366-adbc-a3b691e64864
-„
-java:S3457g"AFormat specifiers should be used instead of string concatenation.(²´„º8ËÆïü 2J$aac0bc64-0b04-479d-86a1-51661708890c
-s
-java:S1481|"+Remove this unused "singer" local variable.(¹é´°ıÿÿÿÿ8ÎÆïü 2J$f92a1320-ee4e-435d-a4f9-9d0404a23970
+java:S1854"<Remove this useless assignment to local variable "txtRoute".(¯Ø»ï8¨Ÿç¨2J$479c557b-ae46-48cf-898b-1cf0a4c174fc
+p
+java:S1481"-Remove this unused "txtRoute" local variable.(¯Ø»ï8¨Ÿç¨2J$7e07b842-feef-4b2b-b8b8-0e39a2181d95
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(”„áÚùÿÿÿÿ8 ¨Ÿç¨2J$72ac72a2-4b4a-4f7e-8e04-44abffffc92c
+X
+java:S1128"6Remove this unused import 'classes.jdbc.DBConnection'.(Äÿ“†ÿÿÿÿÿ8ÂÀ­ç¨2
+W
+java:S1128":Remove this unused import 'exceptions.MaxSingerException'.(å„°Ù8ÂÀ­ç¨2
+^
+java:S1128"ARemove this unused import 'interfaces.jdbcinterfaces.GenericDao'.(ã¶ñÚ8ÂÀ­ç¨2
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÂÀ­ç¨2
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ÂÀ­ç¨2
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8ÂÀ­ç¨2
+L
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿8ÂÀ­ç¨2
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ÂÀ­ç¨2
+r
+java:S1068"*Remove this unused "logger" private field.(‡ÊçÓıÿÿÿÿ8–€¤ç¨2J$2ec67b4d-bbb8-4815-9053-bf2800c683a4

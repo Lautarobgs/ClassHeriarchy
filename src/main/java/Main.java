@@ -1,5 +1,11 @@
 import classes.*;
+import classes.jdbc.DBConnection;
+import classes.jdbc.GenericDaoImp;
+import classes.jdbc.MusicGenreDAO;
+import classes.jdbc.MusicGenreService;
 import exceptions.MaxSingerException;
+import interfaces.jdbcinterfaces.GenericDao;
+import interfaces.jdbcinterfaces.IMusicGenreService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -8,6 +14,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
@@ -17,7 +25,7 @@ public class Main {
   private static  Logger logger = LogManager.getLogger(Main.class);
   public static void main(String[] args) throws Exception{
     String txtRoute = "src/main/java/resources/lyrics.txt";
-    logger.info("There are a total of: " +UniqueWordCounter.countUniqueWords(txtRoute) +" unique word");
+    /*logger.info("There are a total of: " +UniqueWordCounter.countUniqueWords(txtRoute) +" unique word");
 ArrayList<String> instruments = new ArrayList<String>();
     instruments.add("Electric Guitar");
     instruments.add("Keyboard");
@@ -126,6 +134,17 @@ ArrayList<String> instruments = new ArrayList<String>();
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }
+    }*/
+
+      GenericDaoImp<MusicGenreJDBC> genreDAO = new MusicGenreDAO();
+
+      // Create the service with the DAO
+      IMusicGenreService genreService = new MusicGenreService(genreDAO);
+
+      // Now you can use genreService to interact with the database
+      MusicGenreJDBC newGenre = new MusicGenreJDBC("Jazz", "New Orleans");
+      genreService.create(newGenre);
+
+
   }
 }
