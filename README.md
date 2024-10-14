@@ -1,13 +1,13 @@
-1. 10 statements for insertion. @ src/main/java/resources/insert.sql
-2. 10 statements for updating. @ src/main/java/resources/update.sql
-3. 10 statements for deletions. @ src/main/java/resources/delete.sql
-4. 5 alter table. @ src/main/java/resources/altertable.sql
-5.  1 big statement to join all tables in the database. @ src/main/java/resources/bigjoin.sql
-6. 5 statements with left, right, inner, outer joins. @ src/main/java/resources/select.sql
-8. 7 statements with aggregate functions and group by and without having. @ src/main/java/resources/selectfunctions.sql
-9. 7 statements with aggregate functions and group by and with having. @ src/main/java/resources/selectfunctions.sql
+XML/XSD Requirements at:
+ .src/main/java/resources/xml
+ .src/main/java/classes/sax
+ .main @ line 159
 
 
+JDBC Requirements at:
+ .src/main/java/classes/jdbc
+ .src/main/java/interfaces/jdbcinterfaces
+ .main @ line 150
 
 SQL requirements at src/main/java/resources/classhierarchy.sql
 
