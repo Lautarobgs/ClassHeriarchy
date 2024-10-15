@@ -145,7 +145,7 @@ ArrayList<String> instruments = new ArrayList<String>();
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }
+    }*/
 
       GenericDaoImp<MusicGenreJDBC> genreDAO = new MusicGenreDAO();
 
@@ -154,7 +154,7 @@ ArrayList<String> instruments = new ArrayList<String>();
 
       // Now you can use genreService to interact with the database
       MusicGenreJDBC newGenre = new MusicGenreJDBC("Jazz", "New Orleans");
-      genreService.create(newGenre);*/
+      genreService.create(newGenre);
 
       try {
           MusicGenreHandler musicGenreHandler = new MusicGenreHandler("src/main/java/resources/xml/musicGenres.xml", "src/main/java/resources/xml/musicGenres.xsd");

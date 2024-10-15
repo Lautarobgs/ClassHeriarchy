@@ -20,12 +20,7 @@ public class MusicGenreHandler {
         this.xsdFile = new File(xsdFilePath);
     }
 
-    /**
-     * Validates the XML file against the provided XSD schema.
-     *
-     * @throws SAXException
-     * @throws IOException
-     */
+
     public void validateXML() throws SAXException, IOException {
         SchemaFactory schemaFactory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
         Schema schema = schemaFactory.newSchema(xsdFile);
@@ -41,12 +36,6 @@ public class MusicGenreHandler {
         }
     }
 
-    /**
-     * Processes the XML file and returns a list of MusicGenre objects.
-     *
-     * @return List of MusicGenre objects.
-     * @throws Exception
-     */
     public List<MusicGenre> processMusicGenres() throws Exception {
         List<MusicGenre> musicGenres = new ArrayList<>();
 
@@ -110,6 +99,6 @@ public class MusicGenreHandler {
         if (nodeList.getLength() > 0) {
             return nodeList.item(0).getTextContent();
         }
-        return null; // o cualquier valor por defecto
+        return null;
     }
 }

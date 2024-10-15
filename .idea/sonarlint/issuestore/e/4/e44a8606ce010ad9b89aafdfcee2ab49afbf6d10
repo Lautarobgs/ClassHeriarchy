@@ -1,10 +1,44 @@
 
-B
-java:S2629©"$Invoke method(s) only conditionally.(Ð³Èè8í«Êè¨2
-Y
-java:S1854&"<Remove this useless assignment to local variable "txtRoute".(¯Ø»ï8ñ«Êè¨2
-J
-java:S1481&"-Remove this unused "txtRoute" local variable.(¯Ø»ï8ñ«Êè¨2
-]	java:S125'"<This block of commented-out lines of code should be removed.(”„áÚùÿÿÿÿ8ô«Êè¨2
-d
-java:S3457¬"AFormat specifiers should be used instead of string concatenation.(œ Äßÿÿÿÿÿ8ô«Êè¨2
+h
+java:S2629©"$Invoke method(s) only conditionally.(Ð³Èè8í«Êè¨2J$8a760d9b-de09-4257-9b63-5d2678a921e5
+
+java:S1854&"<Remove this useless assignment to local variable "txtRoute".(¯Ø»ï8ñ«Êè¨2J$7ffba7fc-f1bf-4c17-9c28-301b4e0676f5
+p
+java:S1481&"-Remove this unused "txtRoute" local variable.(¯Ø»ï8ñ«Êè¨2J$089cb2a6-e40a-410b-b8e9-e69b57bcc039
+ƒ	java:S125'"<This block of commented-out lines of code should be removed.(”„áÚùÿÿÿÿ8ô«Êè¨2J$e7c35556-498b-4fa5-8f01-d43680c3d01e
+Š
+java:S3457¬"AFormat specifiers should be used instead of string concatenation.(œ Äßÿÿÿÿÿ8ô«Êè¨2J$35096dd9-6507-4fe1-9764-4810daf94c00
+X
+java:S1128"6Remove this unused import 'classes.jdbc.DBConnection'.(Äÿ“†ÿÿÿÿÿ8Úæ‰é¨2
+W
+java:S1128":Remove this unused import 'exceptions.MaxSingerException'.(å„°Ù8Úæ‰é¨2
+^
+java:S1128"ARemove this unused import 'interfaces.jdbcinterfaces.GenericDao'.(ã¶ñÚ8Úæ‰é¨2
+U
+java:S1128"3Remove this unused import 'org.xml.sax.Attributes'.(èŒ›Àýÿÿÿÿ8Úæ‰é¨2
+W
+java:S1128"5Remove this unused import 'org.xml.sax.SAXException'.(ü…ãþÿÿÿÿ8Úæ‰é¨2
+W
+java:S1128":Remove this unused import 'org.xml.sax.SAXParseException'.(Äâ’¬8Úæ‰é¨2
+N
+java:S1128"2Remove this unused import 'org.xml.sax.XMLReader'.(½Ñ´.8Úæ‰é¨2
+a
+java:S1128"?Remove this unused import 'org.xml.sax.helpers.DefaultHandler'.(ø°ñ„þÿÿÿÿ8Úæ‰é¨2
+c
+java:S1128"ARemove this unused import 'org.xml.sax.helpers.XMLReaderFactory'.(ÈÒÁÚúÿÿÿÿ8Úæ‰é¨2
+U
+java:S1128"8Remove this unused import 'javax.xml.validation.Schema'.(±àü8Úæ‰é¨2
+a
+java:S1128"?Remove this unused import 'javax.xml.validation.SchemaFactory'.(¹ÍÛˆþÿÿÿÿ8Úæ‰é¨2
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8Úæ‰é¨2
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8Ûæ‰é¨2
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8Ûæ‰é¨2
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Ûæ‰é¨2
+L
+java:S1128"/Remove this unused import 'java.util.function'.(Üþ’¿8Ûæ‰é¨2
+Z
+java:S1128 "8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Ûæ‰é¨2

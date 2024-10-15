@@ -65,8 +65,6 @@ S
 #src/main/java/enums/MusicTempo.java,4\8\489f55f37836626f35639644b87488fca2938c65
 Z
 *src/main/java/resources/classhierarchy.sql,4\c\4c632ce52cec8c1b6922f8478cda86687dac1587
-^
-.src/main/java/classes/jdbc/ConnectionPool.java,c\1\c149b5fadb507011f5ed49195e7c9f79932d34d2
 \
 ,src/main/java/classes/jdbc/DBConnection.java,9\e\9e94591aa7b6431bb0de2aa2d1c968d37eb91890
 g
@@ -85,9 +83,5 @@ a
 +src/main/java/resources/xml/musicGenres.xml,c\b\cba59ac06fe73093418e05f2dbf27997aa39330a
 [
 +src/main/java/resources/xml/musicGenres.xsd,5\2\52b2042d1e4cf425089ea1771aefa8eef10764ee
-c
-3src/main/java/classes/sax/MusicGenresSAXParser.java,7\9\792e40e196e73f4ecfc17d0ee9a6457de0902ca4
-[
-+src/main/java/classes/sax/XMLValidator.java,4\0\403b1cb05cca6def8e6299efe733a10ba1418c51
 `
 0src/main/java/classes/sax/MusicGenreHandler.java,9\8\9810816a4ff65ac3d7356a21994fbf582420a510

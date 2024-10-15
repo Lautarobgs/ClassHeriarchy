@@ -1,9 +1,9 @@
 
-g	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(ü „øÿÿÿÿ8Òûùè¨2
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(ü „øÿÿÿÿ8Òûùè¨2J$09edda42-8719-4596-b2c6-bbae790ae9f3
 v
-java:S27555"3Disable access to external entities in XML parsing.(ğ¨ºî8•ÖÄè¨2J$f851dbe3-7024-4e01-8667-44fb0f99c66f
-P
-java:S2755!"3Disable access to external entities in XML parsing.(ğ¨ºî8Óûùè¨2
-t
-java:S37762"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ü „øÿÿÿÿ8Ûûùè¨2
-C	java:S131E""Add a default case to this switch.(ÒšĞøıÿÿÿÿ8Şûùè¨2
+java:S2755*"3Disable access to external entities in XML parsing.(ğ¨ºî8•ÖÄè¨2J$470bead5-092c-45a5-a9a7-9e2fc1a53155
+v
+java:S2755"3Disable access to external entities in XML parsing.(ğ¨ºî8Óûùè¨2J$a6e2fd65-3c49-4e63-8fd5-1124d7d222f2
+š
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ü „øÿÿÿÿ8Ûûùè¨2J$17c5a486-59d1-41bd-a4d3-e7518f330162
+i	java:S131:""Add a default case to this switch.(ÒšĞøıÿÿÿÿ8Şûùè¨2J$a4786eba-455e-4821-9b7a-4a00dbde82eb
