@@ -1,0 +1,18 @@
+{
+  "title": "El Gran Gatsby",
+  "author": {
+    "name": "F. Scott Fitzgerald",
+    "age": 44
+  },
+  "reviews": [
+    {
+      "reviewer": "John Doe",
+      "comment": "Un clásico de la literatura americana."
+    },
+    {
+      "reviewer": "Jane Smith",
+      "comment": "Una obra maestra de la narrativa."
+    }
+  ],
+  "publicationDate": "1925-04-10"
+}

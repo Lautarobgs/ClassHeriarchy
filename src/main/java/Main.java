@@ -1,6 +1,6 @@
-import classes.*;
-import classes.jaxb.Book;
-import classes.jaxb.Review;
+import classes.newhierarchy.Book;
+import classes.newhierarchy.Review;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -9,6 +9,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.IOException;
+import java.util.List;
 
 public class Main {
 
@@ -149,7 +151,7 @@ ArrayList<String> instruments = new ArrayList<String>();
           }
       } catch (Exception e) {
           logger.error("Error processing the XML file: " + e.getMessage(), e);
-      }*/
+      }
       try {
           //Context
           JAXBContext context = JAXBContext.newInstance(Book.class);
@@ -171,6 +173,22 @@ ArrayList<String> instruments = new ArrayList<String>();
 
       } catch (JAXBException e) {
           e.printStackTrace();
+      }*/
+
+
+      ObjectMapper objectMapper = new ObjectMapper();
+      try {
+          Book book = objectMapper.readValue(new File("src/main/java/resources/xml/hierarchy2.json"), Book.class);
+          logger.info("Title: " + book.getTitle());
+          logger.info("Author: " + book.getAuthor().getName());
+          logger.info("Publication Date: " + book.getPublicationDate());
+          List<Review> reviews = book.getReviews();
+          for (Review review : reviews) {
+              logger.info("Reviewer: " + review.getReviewer());
+              logger.info("Comment: " + review.getComment());
+          }
+      } catch (IOException e) {
+          logger.error("Error al leer el JSON: " + e.getMessage());
       }
 
   }

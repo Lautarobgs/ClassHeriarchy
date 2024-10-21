@@ -101,3 +101,15 @@ V
 &src/main/java/classes/jaxb/Author.java,b\0\b0353c0adc94f8e862d1e8c125abac97fac6d3fb
 V
 &src/main/java/classes/jaxb/Review.java,f\b\fba6193876502695ff7af7726c8051460deeec7d
+\
+,src/main/java/classes/newhierarchy/Book.java,5\5\5543f917dc063e3be265cdcf1dd5baf2eecac3d4
+^
+.src/main/java/classes/newhierarchy/Author.java,4\f\4ff638c7109210beab7735b4e18f315e22cc2b74
+^
+.src/main/java/classes/newhierarchy/Review.java,d\9\d9d291f857c934319ccf17b84b7343b4e3001d4e
+a
+1src/main/java/classes/newhierarchy/Publisher.java,b\1\b1a732dfda1a8b9920722fdb38d5549d79601c13
+]
+-src/main/java/classes/newhierarchy/Genre.java,4\e\4ecbd74e6d7727cd7c909c19313a3a188675a3c7
+[
++src/main/java/resources/xml/hierarchy2.json,3\b\3b6ef7b76402b0e6f80a466b1e0133a5ea3cc7e1
