@@ -151,7 +151,7 @@ ArrayList<String> instruments = new ArrayList<String>();
           }
       } catch (Exception e) {
           logger.error("Error processing the XML file: " + e.getMessage(), e);
-      }
+      }*/
       try {
           //Context
           JAXBContext context = JAXBContext.newInstance(Book.class);
@@ -160,7 +160,7 @@ ArrayList<String> instruments = new ArrayList<String>();
           Unmarshaller unmarshaller = context.createUnmarshaller();
 
           // Parsing xml to object
-          File file = new File("src/main/java/resources/xml/musicGenres2.xml");
+          File file = new File("src/main/java/resources/xml/book.xml");
           Book book = (Book) unmarshaller.unmarshal(file);
 
           logger.info("Title: " + book.getTitle());
@@ -173,12 +173,12 @@ ArrayList<String> instruments = new ArrayList<String>();
 
       } catch (JAXBException e) {
           e.printStackTrace();
-      }*/
+      }
 
 
       ObjectMapper objectMapper = new ObjectMapper();
       try {
-          Book book = objectMapper.readValue(new File("src/main/java/resources/xml/hierarchy2.json"), Book.class);
+          Book book = objectMapper.readValue(new File("src/main/java/resources/json/hierarchy2.json"), Book.class);
           logger.info("Title: " + book.getTitle());
           logger.info("Author: " + book.getAuthor().getName());
           logger.info("Publication Date: " + book.getPublicationDate());
