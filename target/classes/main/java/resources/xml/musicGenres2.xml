@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <title>The Great Gatsby</title>
+    <author>
+        <name>F. Scott Fitzgerald</name>
+        <age>44</age>
+    </author>
+    <reviews>
+        <review>
+            <reviewer>John Doe</reviewer>
+            <comment>A masterpiece of 20th-century literature.</comment>
+        </review>
+        <review>
+            <reviewer>Jane Smith</reviewer>
+            <comment>Brilliant and tragic.</comment>
+        </review>
+    </reviews>
+    <publicationDate>1925-04-10</publicationDate>
+</book>

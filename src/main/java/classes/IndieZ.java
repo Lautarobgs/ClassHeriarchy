@@ -5,15 +5,19 @@ import interfaces.IMusicGenre;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.xml.bind.annotation.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Objects;
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"countryOrigin"})
 public class IndieZ extends MusicGenre implements IIndieZ {
+  @XmlElement(name = "countryOrigin")
   private String countryOrigin;
   private static final Logger logger = LogManager.getLogger(IndieZ.class);
-
+  public IndieZ() {}
   ///Overloading
   public IndieZ(String name, String origin, String countryOrigin) {
     super(name, origin);

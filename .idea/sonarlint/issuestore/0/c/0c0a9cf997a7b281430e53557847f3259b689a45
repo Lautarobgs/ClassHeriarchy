@@ -1,4 +1,4 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(¥ùŽÊüÿÿÿÿ8Ýý¹º—2J$6a51ca3e-c210-4093-b54c-326df927ac8b
-{
-java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8«ø‚ý˜2J$e42c4249-7dbe-4ffe-9fb0-5a34145d2c3f
+r	java:S106!"+Replace this use of System.out by a logger.(¥ùŽÊüÿÿÿÿ8Ýý¹º—2J$282e3e44-420f-4b39-ac78-5d6d296e9bf3
+U
+java:S1128"3Remove this unused import 'interfaces.IMusicGenre'.(ÜÎ´©ûÿÿÿÿ8×¾ÏŠ«2

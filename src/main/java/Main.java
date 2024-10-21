@@ -1,35 +1,14 @@
 import classes.*;
-import classes.jdbc.DBConnection;
-import classes.jdbc.GenericDaoImp;
-import classes.jdbc.MusicGenreDAO;
-import classes.jdbc.MusicGenreService;
-import classes.sax.MusicGenreHandler;
-import exceptions.MaxSingerException;
-import interfaces.jdbcinterfaces.GenericDao;
-import interfaces.jdbcinterfaces.IMusicGenreService;
+import classes.jaxb.Book;
+import classes.jaxb.Review;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
-import org.xml.sax.helpers.XMLReaderFactory;
 
 
-import javax.xml.validation.Schema;
-import javax.xml.validation.SchemaFactory;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.IOException;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -145,7 +124,7 @@ ArrayList<String> instruments = new ArrayList<String>();
       }
     } catch (MaxSingerException e) {
       logger.warn(e.getMessage());
-    }*/
+    }
 
       GenericDaoImp<MusicGenreJDBC> genreDAO = new MusicGenreDAO();
 
@@ -170,6 +149,28 @@ ArrayList<String> instruments = new ArrayList<String>();
           }
       } catch (Exception e) {
           logger.error("Error processing the XML file: " + e.getMessage(), e);
+      }*/
+      try {
+          //Context
+          JAXBContext context = JAXBContext.newInstance(Book.class);
+
+          //unmarshall
+          Unmarshaller unmarshaller = context.createUnmarshaller();
+
+          // Parsing xml to object
+          File file = new File("src/main/java/resources/xml/musicGenres2.xml");
+          Book book = (Book) unmarshaller.unmarshal(file);
+
+          logger.info("Title: " + book.getTitle());
+          logger.info("Author: " + book.getAuthor().getName());
+          logger.info("Publication Date: " + book.getPublicationDate());
+          for (Review review : book.getReviews()) {
+              logger.info("Reviewer: " + review.getReviewer());
+              logger.info("Comment: " + review.getComment());
+          }
+
+      } catch (JAXBException e) {
+          e.printStackTrace();
       }
 
   }

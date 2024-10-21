@@ -3,9 +3,13 @@ package classes;
 import interfaces.IMusicGenre;
 import interfaces.IPop;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Objects;
 
+@XmlRootElement(name = "Pop")
 public class Pop extends MusicGenre implements IPop {
+  @XmlElement(name = "mostStreamedArtist")
   protected String mostStreamedArtist;
   private Float speed;
   public Pop(String name, String origin, String mostStreamedArtist) {
@@ -13,7 +17,9 @@ public class Pop extends MusicGenre implements IPop {
     this.speed = 1F;
     this.mostStreamedArtist = mostStreamedArtist;
   }
-
+  public Pop() {
+    // Default constructor for JAXB
+  }
   public String getMostStreamedArtist() {
     return mostStreamedArtist;
   }

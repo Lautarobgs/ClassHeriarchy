@@ -2,11 +2,19 @@ package classes;
 
 import interfaces.IMusicGenre;
 
+import javax.xml.bind.annotation.*;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public abstract class MusicGenre implements IMusicGenre {
+
+  @XmlElement
   protected String name;
+  @XmlElement
   protected String origin;
+  @XmlElement
   protected Integer bpm;
 
+  public MusicGenre() {}
   public MusicGenre(String name, String origin) {
     this.name = name;
     this.origin = origin;

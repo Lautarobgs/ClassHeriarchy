@@ -1,6 +1,10 @@
 
+³
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ûÍ‚Ï8‹Şëè¨2J$44e473af-3a6a-4c3b-8124-9d0b583fbd76
 ­
-java:S1319	"kThe type of "mainArtists" should be an interface such as "List" rather than the implementation "ArrayList".(÷®ºT8‹Şëè¨2J$4495dd2f-8308-4d03-96e9-7f3dbe923c1b
-e	java:S106"+Replace this use of System.out by a logger.(ƒŞÄJ$edc947cf-2b7f-4fe8-aa5d-d8c3f15cac6a
+java:S1319"kThe type of "mainArtists" should be an interface such as "List" rather than the implementation "ArrayList".(÷®ºT8Ë¶‚Š«2J$c0f2705c-351d-45fc-8c65-12aa88145f84
+e	java:S106"+Replace this use of System.out by a logger.(ƒŞÄJ$20f78e68-2bc8-4460-9e48-120195cd300e
+ˆ
+java:S1128"ERemove this unused import 'javax.xml.bind.annotation.XmlRootElement'.(Òóå†8ÄÏÓŠ«2J$fa398c1d-3ac2-461f-bcc6-47c2fa531223
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ëóöâ™2J$ac0dfa4e-058b-4946-b168-df6c3ea14a0e
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8’â¤Š«2J$9f62b5b3-9f5d-4066-bdd2-999946798329
